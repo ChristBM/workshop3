@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <section class="weather__app">
+        <header class="selectDisable">
+            <h1>Simple Weather App</h1>
+            <div class="input-button__container">
+                <input type="text" class="input__style" placeholder="Search for a city">
+                <button id="traer_pronostico" class="button__submit">Submit!</button>
+            </div>
+        </header>
+        <div class="parameters__container">
+            <div class="messenger__container">
+                <p class="message"></p>
+            </div>
+            <div class="change__language">
+                <p>EN</p>
+                <button class="btn__lang"></button>
+                <p>ES</p>
+            </div>
+        </div>
+        <div class="cards__container" id="cardsContainer">
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>
