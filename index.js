@@ -129,7 +129,7 @@ async function fetchWeather( city ) {
             }, 2000 )
         }
         else{
-            mensajeInfo.textContent = 'Ciudad no econtrada'
+            mensajeInfo.textContent = 'Ciudad no hallada'
             setTimeout( () => {
                 mensajeInfo.textContent = ''
             }, 2000 )
